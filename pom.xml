@@ -6,7 +6,7 @@
 
     <groupId>fr.diginamic.ci</groupId>
     <artifactId>example1</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -21,6 +21,14 @@
             <artifactId>commons-math3</artifactId>
             <version>3.6</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.30</version>
+        </dependency>
+
     </dependencies>
 
     <build>
